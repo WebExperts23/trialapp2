@@ -3,7 +3,7 @@
 client_id = "9861b6952ff7ff74861bb0dc8c8b56f2"
 name = "trialapp2"
 handle = "trialapp2st"
-application_url = "https://example.com/"
+application_url = "https://trialapp2.vercel.app/"
 embedded = true
 
 [build]
@@ -25,7 +25,7 @@ api_version = "2025-04"
 scopes = "write_products,read_products"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://trialapp2.vercel.app/api/auth" ]
 
 [pos]
 embedded = false
